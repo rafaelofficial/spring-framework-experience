@@ -44,6 +44,11 @@ public class Car {
 
     // method that calculate the quantity of liter of tank capacity
     public double totalValueTankCapacity(double valueOfFuel) {
-        return this.tankCapacity + valueOfFuel;
+        return this.tankCapacity * valueOfFuel;
+    }
+
+    @Override
+    public String toString() {
+        return color + ", " + model + ", " + tankCapacity;
     }
 }

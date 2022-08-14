@@ -3,6 +3,17 @@ package one.digital.innovation.oop;
 public class OrientationObjectPrograming {
 
     public static void main(String[] args) {
-        System.out.println("Hello Java - Spring Framework!");
+
+        var car1 = new Car();
+        car1.setColor("Black");
+        car1.setModel("BMW");
+        car1.setTankCapacity(59);
+
+        System.out.println(car1.getModel() + ", " + car1.getColor() + ", " + car1.getTankCapacity());
+        System.out.println(car1.totalValueTankCapacity(6.39));
+
+        var car2 = new Car("White", "Ferrari", 66);
+        System.out.println(car2.getModel() + ", " + car2.getColor() + ", " + car2.getTankCapacity());
+        System.out.println(car1.totalValueTankCapacity(6.65));
     }
 }
