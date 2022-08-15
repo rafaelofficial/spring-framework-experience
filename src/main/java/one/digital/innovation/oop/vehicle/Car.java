@@ -1,4 +1,4 @@
-package one.digital.innovation.oop;
+package one.digital.innovation.oop.vehicle;
 
 public class Car extends Vehicle {
 

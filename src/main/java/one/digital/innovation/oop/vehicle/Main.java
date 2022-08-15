@@ -1,6 +1,6 @@
-package one.digital.innovation.oop;
+package one.digital.innovation.oop.vehicle;
 
-public class OrientationObjectPrograming {
+public class Main {
 
     public static void main(String[] args) {
 
