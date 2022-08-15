@@ -8,7 +8,6 @@ public class OrientationObjectPrograming {
         car1.setColor("Black");
         car1.setModel("BMW");
         car1.setTankCapacity(59);
-
         System.out.println(car1.getModel() + ", " + car1.getColor() + ", " + car1.getTankCapacity());
         System.out.println(car1.totalValueTankCapacity(6.39));
 

@@ -1,6 +1,6 @@
 package one.digital.innovation.oop;
 
-public class Car {
+public class Car extends Vahicle {
 
     // Attributes of class
     String color;
